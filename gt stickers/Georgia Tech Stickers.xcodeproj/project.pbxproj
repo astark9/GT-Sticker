@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC87DE251E33D161008166DB /* StickerPackExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CC87DE241E33D161008166DB /* StickerPackExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CC87DE291E33D161008166DB /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = CC87DE281E33D161008166DB /* Stickers.xcstickers */; };
+		CC87DE2A1E33D161008166DB /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = CC87DE281E33D161008166DB /* Stickers.xcstickers */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC87DE261E33D161008166DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC87DE1A1E33D161008166DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC87DE231E33D161008166DB;
+			remoteInfo = StickerPackExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CC87DE301E33D161008166DB /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CC87DE251E33D161008166DB /* StickerPackExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CC87DE201E33D161008166DB /* Georgia Tech Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Georgia Tech Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC87DE241E33D161008166DB /* StickerPackExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StickerPackExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC87DE281E33D161008166DB /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; name = Stickers.xcstickers; path = StickerPackExtension/Stickers.xcstickers; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		CC87DE191E33D161008166DB = {
+			isa = PBXGroup;
+			children = (
+				CC87DE281E33D161008166DB /* Stickers.xcstickers */,
+				CC87DE211E33D161008166DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC87DE211E33D161008166DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC87DE201E33D161008166DB /* Georgia Tech Stickers.app */,
+				CC87DE241E33D161008166DB /* StickerPackExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC87DE1F1E33D161008166DB /* Georgia Tech Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC87DE311E33D161008166DB /* Build configuration list for PBXNativeTarget "Georgia Tech Stickers" */;
+			buildPhases = (
+				CC87DE1E1E33D161008166DB /* Resources */,
+				CC87DE301E33D161008166DB /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC87DE271E33D161008166DB /* PBXTargetDependency */,
+			);
+			name = "Georgia Tech Stickers";
+			productName = "Georgia Tech Stickers";
+			productReference = CC87DE201E33D161008166DB /* Georgia Tech Stickers.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		CC87DE231E33D161008166DB /* StickerPackExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC87DE2D1E33D161008166DB /* Build configuration list for PBXNativeTarget "StickerPackExtension" */;
+			buildPhases = (
+				CC87DE221E33D161008166DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StickerPackExtension;
+			productName = StickerPackExtension;
+			productReference = CC87DE241E33D161008166DB /* StickerPackExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages-sticker-pack";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC87DE1A1E33D161008166DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = AStark;
+				TargetAttributes = {
+					CC87DE1F1E33D161008166DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 96DDME6C2H;
+						ProvisioningStyle = Automatic;
+					};
+					CC87DE231E33D161008166DB = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 96DDME6C2H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CC87DE1D1E33D161008166DB /* Build configuration list for PBXProject "Georgia Tech Stickers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC87DE191E33D161008166DB;
+			productRefGroup = CC87DE211E33D161008166DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC87DE1F1E33D161008166DB /* Georgia Tech Stickers */,
+				CC87DE231E33D161008166DB /* StickerPackExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC87DE1E1E33D161008166DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC87DE2A1E33D161008166DB /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC87DE221E33D161008166DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC87DE291E33D161008166DB /* Stickers.xcstickers in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC87DE271E33D161008166DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC87DE231E33D161008166DB /* StickerPackExtension */;
+			targetProxy = CC87DE261E33D161008166DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC87DE2B1E33D161008166DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC87DE2C1E33D161008166DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC87DE2E1E33D161008166DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 96DDME6C2H;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "AStark.Georgia-Tech-Stickers.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CC87DE2F1E33D161008166DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 96DDME6C2H;
+				INFOPLIST_FILE = StickerPackExtension/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "AStark.Georgia-Tech-Stickers.StickerPackExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CC87DE321E33D161008166DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 96DDME6C2H;
+				INFOPLIST_FILE = "Georgia Tech Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "AStark.Georgia-Tech-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC87DE331E33D161008166DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				DEVELOPMENT_TEAM = 96DDME6C2H;
+				INFOPLIST_FILE = "Georgia Tech Stickers/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "AStark.Georgia-Tech-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC87DE1D1E33D161008166DB /* Build configuration list for PBXProject "Georgia Tech Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC87DE2B1E33D161008166DB /* Debug */,
+				CC87DE2C1E33D161008166DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC87DE2D1E33D161008166DB /* Build configuration list for PBXNativeTarget "StickerPackExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC87DE2E1E33D161008166DB /* Debug */,
+				CC87DE2F1E33D161008166DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC87DE311E33D161008166DB /* Build configuration list for PBXNativeTarget "Georgia Tech Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC87DE321E33D161008166DB /* Debug */,
+				CC87DE331E33D161008166DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC87DE1A1E33D161008166DB /* Project object */;
+}
